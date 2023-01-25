@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="img">
+            <img src="./img/meter tape.jpg" alt="measure cartoon">
+        </div>
+
+        <div class="header">
+            <h1>find the largest word</h1>
+            <p>
+                With this simple program we can find out which is the largest word in the paragraph got into 
+                and get the number of letters that the word has.
+            </p>
+        </div>
+
+        <div class="result">
+            
+            <div class="input_string">
+                <section>
+                    <input type="text" class="texto" name="texto" id="texto">
+                    <input type="submit" class="submit" value="Find" name="submit" id="submit" onclick="findLargestWord()">
+                </section>
+            </div>
+    
+            <div class="out_string">
+                <section>
+                    <textarea class="salida" name="salida" id="salida" readonly></textarea>
+                    <input type="submit" value="Clear" class="clear" name="clear" id="clear" onclick="limpiar()">
+                </section>
+            </div>
+    
+        </div>
+        
+    </div>
+    
+</body>
+
+<script src="./js/funciones.js"></script>
+</html>
